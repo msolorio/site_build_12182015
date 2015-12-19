@@ -159,12 +159,12 @@ CENTER BUTTONS
 /*************************************
 DIVIDER1
 **************************************/
-	.divider1 {
-
-	}
+	.divider1 {position: relative;z-index: 3;height: 78px;}
 	.divider1-h3 {
-
-	}
+    line-height: 78px;
+    text-align: center;
+    text-transform: capitalize;
+}
 /*************************************
 SECTION2
 **************************************/
