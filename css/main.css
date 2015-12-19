@@ -171,18 +171,35 @@ SECTION2
 	.section2 {
 
 	}
-	.section2-border-wrap {
-
-	}
+	.section2-border-wrap {margin: 8% 0;border-left: 7px solid #FFD700;border-right: 7px solid #FFD700;}
 	.section2-col {
-
-	}
-	.section2-col-p {
-
+    float: left;
+    padding: 0 4%;
+}
+	.section2-col-p {font-size: 1.9em;}
+	.section2-col-p.first {
+		margin-bottom: 6%;
 	}
 /*************************************
 FOOTER
 **************************************/
 	footer {
+		height:62px;
+		font-family: sans-serif;
+	}
+	.footer-copy {line-height: 62px;margin-right: 3%;}
+	.footer-contact {line-height: 62px;text-transform: capitalize;}
+	.footer-nav-ul {
 
+	}
+	.footer-nav-li {
+
+	}
+	.footer-nav-a {
+		display: block;
+		text-decoration: none;
+		line-height: 62px;
+		width: 98px;
+		text-align: center;
+		font-size: 1.1em;
 	}
