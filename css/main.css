@@ -1,0 +1,117 @@
+/***********************
+Project Name: Site Build 12182015
+Author: Michael Solorio
+Contact: msolorio.wd@gmail.com
+***********************/
+
+/***********************
+NORMALIZE.CSS
+***********************/
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */img,legend{border:0}legend,td,th{padding:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,optgroup,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre,textarea{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}table{border-collapse:collapse;border-spacing:0}
+
+/***********************
+GENERAL STYLES
+***********************/
+	*, *::before, *::after {
+		margin:0;
+		padding:0;
+
+	    -webkit-box-sizing: border-box;
+	       -moz-box-sizing: border-box;
+	            box-sizing: border-box;
+	}
+	body {
+		font-family:'Montserrat', sans-serif;
+	}
+	ul {
+		list-style-type:none;
+	}
+	.section-wrap {
+		max-width:1115px;
+		margin:0 auto;
+		padding: 0 3.7%;
+	}
+	.clear-both {
+		clear:both;
+	}
+	.float-right {
+		float:right;
+		position: relative;
+	}
+	.float-left {
+		float:left;
+	}
+	.font-light {
+		font-weight:100;
+	}
+	.font-medium {
+		font-weight:400;
+	}
+	.font-heavy {
+		font-weight:700;
+	}
+
+/*************************************
+GRID
+**************************************/
+	.col-1  { width: 8.33333%; }
+	.col-2  { width: 16.6667%; }
+	.col-3  { width: 25%;      }
+	.col-4  { width: 33.3333%; }
+	.col-5  { width: 41.6667%; }
+	.col-6  { width: 50%;      }
+	.col-7  { width: 58.3333%; }
+	.col-8  { width: 66.6667%; }
+	.col-9  { width: 75%;      }
+	.col-10 { width: 83.3333%; }
+	.col-11 { width: 91.6667%; }
+	.col-12 { width: 100%;     }
+
+/***********************
+COLORS
+***********************/
+	.text-white {color:#fff;}
+	.bg-white {background: #FFF;}
+
+	.text-aqua {color: rgba(22,149,162,0.95);}
+	.bg-aqua {background:rgba(22,149,162,0.95);}
+
+	.text-dark-blue{color: #40676B;}
+	.bg-dark-blue{background:#28494C;}
+
+/*************************************
+HEADER
+**************************************/
+
+/*************************************
+LOGO
+**************************************/
+
+/*************************************
+NAVIGATION
+**************************************/
+
+/*************************************
+CONTACT
+**************************************/
+
+/*************************************
+MAIN
+**************************************/
+
+/*************************************
+SLIDESHOW
+**************************************/
+
+/*************************************
+DIVIDER1
+**************************************/
+
+/*************************************
+SECTION2
+**************************************/
+
+/*************************************
+FOOTER
+**************************************/
+
