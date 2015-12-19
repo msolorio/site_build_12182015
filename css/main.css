@@ -148,7 +148,7 @@ OVERLAY
 /*************************************
 CENTER BUTTONS
 **************************************/
-	.center-button-container {position: relative;z-index: 2;top: 470px;height: 110px;width: 461px;margin: 0 auto;text-align: center;}
+	.center-button-container {position: relative;z-index: 2;opacity:0;top: 470px;height: 110px;width: 461px;margin: 0 auto;text-align: center;}
 	.center-button-a {display: inline-block;text-decoration: none;margin: 0px 5px;}
 	.center-button-outer {border: 7px solid #fff;width: 215px;}
 	.center-button-inner {margin: 4px;text-transform: uppercase;text-align: center;height: 68px;line-height: 68px;}
