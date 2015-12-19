@@ -82,7 +82,9 @@ COLORS
 /*************************************
 HEADER
 **************************************/
-	
+	header {
+		height:71px;
+	}
 /*************************************
 LOGO
 **************************************/
@@ -104,9 +106,7 @@ NAVIGATION
 	.header-nav-li {
 
 	}
-	.header-nav-a {
-
-	}
+	.header-nav-a {display: block;text-decoration: none;width: 100px;height: 71px;line-height: 71px;text-align: center;text-transform: uppercase;font-size: .9em;}
 /*************************************
 CONTACT
 **************************************/
@@ -188,5 +188,5 @@ SECTION2
 FOOTER
 **************************************/
 	footer {
-		
+
 	}
