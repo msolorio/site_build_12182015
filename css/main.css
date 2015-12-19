@@ -97,9 +97,7 @@ LOGO
 /*************************************
 NAVIGATION
 **************************************/
-	.header-nav {
-
-	}
+	.header-nav {margin-right: 39px;}
 	.header-nav-ul {
 
 	}
@@ -121,21 +119,13 @@ NAVIGATION
 /*************************************
 CONTACT
 **************************************/
-	.contact-container {
-
-	}
-	.contact-a {
-
-	}
-	.contact-apply-now {
-
-	}
+	.contact-container {position: relative;height: 71px;width: 146px;padding-top: 9px;}
+	.contact-a {position: relative;z-index: 2;display: block;text-decoration: none;font-size: 1.1em;text-transform: uppercase;text-align: center;}
+	.contact-apply-now {padding-bottom: 8px;}
 	.contact-phone-number {
 
 	}
-	.contact-background-skewed {
-
-	}
+	.contact-background-skewed {position: absolute;z-index: 1;top: 0;left: -21px;height: 71px;width: 196px;transform: skewX(-27deg);}
 
 /*************************************
 SLIDESHOW
