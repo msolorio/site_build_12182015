@@ -25,6 +25,6 @@ function setCenterButtons(){
 
 //READY EXPRESSION
 $(function(){
-	slideshow();
+	//slideshow();
 	setCenterButtons();
 });

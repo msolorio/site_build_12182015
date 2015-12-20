@@ -320,15 +320,20 @@ MEDIA QUERIES
 **************************************/
 
 	@media only screen and (max-width: 1024px) {
+		
+		/*OVERLAY IMAGE******************************/
+		.main-overlay-img {
+			width: 297px;
+		}
+
+		/*CENTER BUTTONS******************************/
 		.center-button-container {
 			top:300px;
 		}
 	}
 
 	@media only screen and (max-width: 767px) {
-		.center-button-container {
-			top:0px;
-		}
+
 		/*HEADER*************************************/
 		header {height: 172px;}
 		.header-content {position: static;float: none;}
@@ -339,19 +344,29 @@ MEDIA QUERIES
 		}
 		.header-nav-a {width: 81px;}
 		.contact-container {
-    float: none;
-    display: block;
-    margin: 19px auto 0;
-}
+		    float: none;
+		    display: block;
+		    margin: 19px auto 0;
+		}
 		.contact-a {
 
 		}
 		.contact-apply-now {
-}
+		}
 		.contact-phone-number {
 			
 		}
 		.contact-background-skewed {
+		}
+
+		/*OVERLAY IMAGE******************************/
+		.main-overlay-img {
+			width: 146px;
+		}
+
+		/*CENTER BUTTONS******************************/
+		.center-button-container {
+			top:0px;
 		}
 	}
 
