@@ -241,6 +241,11 @@ CENTER BUTTONS
 	    text-align: center;
 	    height: 68px;
 	    line-height: 68px;
+
+	    -webkit-transition: all 400ms ease-in-out;
+	    -moz-transition: all 400ms ease-in-out;
+	    -o-transition: all 400ms ease-in-out;
+	    transition: all 400ms ease-in-out;
 	}
 	.center-button-outer:hover > .center-button-inner {
 	    background: rgba(13, 51, 46, 0.79);
@@ -313,6 +318,11 @@ FOOTER
 	    width: 98px;
 	    text-align: center;
 	    font-size: 1.1em;
+
+	    -webkit-transition: all 400ms ease-in-out;
+	    -moz-transition: all 400ms ease-in-out;
+	    -o-transition: all 400ms ease-in-out;
+	    transition: all 400ms ease-in-out;
 	}
 	.footer-nav-a:hover {
 	    color: rgb(255, 211, 87);
