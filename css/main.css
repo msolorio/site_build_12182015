@@ -222,14 +222,11 @@ CENTER BUTTONS
 	    position: relative;
 	    z-index: 2;
 	    /*opacity: 0;*/
-	    /*top: 500px;*/
-	    /*height: 110px;*/
 	    width: 461px;
-	    margin: 541px auto 0;
+	    margin: 518px auto 0;
 	    text-align: center;
 	}
 	.center-button-a {
-	    /*display: inline-block;*/
 	    float:left;
 	    text-decoration: none;
 	    margin: 0px 5px;
@@ -326,7 +323,7 @@ MEDIA QUERIES
 **************************************/
 	@media only screen and (max-width: 1126px) {
 		.center-button-container {
-			margin-top: 470px;
+			margin-top: 447px;
 		}
 	}
 
@@ -339,7 +336,7 @@ MEDIA QUERIES
 
 		/*CENTER BUTTONS******************************/
 		.center-button-container {
-			margin-top: 331px;
+			margin-top: 308px;
 		}
 
 		/*FOOTER******************************/
@@ -380,7 +377,7 @@ MEDIA QUERIES
 
 		/*CENTER BUTTONS******************************/
 		.center-button-container {
-			margin-top: 274px;
+			margin-top: 251px;
 			width: 282px;
 			height: 65px;
 		}
@@ -452,7 +449,7 @@ MEDIA QUERIES
 	
 	@media only screen and (max-width: 600px) {
 		.center-button-container {
-			margin-top: 150px;
+			margin-top: 127px;
 		}
 	}
 
@@ -476,7 +473,7 @@ MEDIA QUERIES
 
 		/*CENTER BUTTONS******************************/
 		.center-button-container {
-			margin-top: 102px;
+			margin-top: 79px;
 			width: 305px;
 		}
 

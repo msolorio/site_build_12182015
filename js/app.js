@@ -17,14 +17,15 @@ function slideshow(){
 } //end function define
 
 function setCenterButtons(){
+	$('.center-button-container').css('opacity',0);
 	$('.center-button-container').delay(400).animate(
-		{top:'+=19px', opacity:1},
+		{top:'+=23px', opacity:1},
 	1200
 	)
 }
 
 //READY EXPRESSION
 $(function(){
-	//slideshow();
-	//setCenterButtons();
+	slideshow();
+	setCenterButtons();
 });
