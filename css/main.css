@@ -320,7 +320,7 @@ MEDIA QUERIES
 **************************************/
 
 	@media only screen and (max-width: 1024px) {
-		
+
 		/*OVERLAY IMAGE******************************/
 		.main-overlay-img {
 			width: 297px;
@@ -366,7 +366,16 @@ MEDIA QUERIES
 
 		/*CENTER BUTTONS******************************/
 		.center-button-container {
-			top:0px;
+			top: 147px;
+			width: 401px;
+			height: 65px;
+		}
+		.center-button-a {margin: 0 2px;}
+		.center-button-outer {width: 145px;border: 5px solid #fff;}
+		.center-button-inner {
+			height: 42px;
+			line-height: 42px;
+			margin: 3px;
 		}
 	}
 
