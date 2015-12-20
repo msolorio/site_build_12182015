@@ -172,7 +172,7 @@ CONTACT
 	    z-index: 2;
 	    display: block;
 	    text-decoration: none;
-	    font-size: 1.1em;
+	    font-size: 1em;
 	    text-transform: uppercase;
 	    text-align: center;
 	}
@@ -183,9 +183,9 @@ CONTACT
 	    position: absolute;
 	    z-index: 1;
 	    top: 0;
-	    left: -21px;
+	    left: -28px;
 	    height: 71px;
-	    width: 196px;
+	    width: 208px;
 	    transform: skewX(-27deg);
 	}
 /*************************************
@@ -197,7 +197,7 @@ SLIDESHOW
 	    width: 100%;
 	    height: 0;
 	    padding-bottom: 57%;
-	    padding-top: 1px;
+	    border-top: 1px solid rgba(22, 149, 162, 0.95);
 	}
 	.slideshow-img {
 	    position: absolute;
@@ -259,7 +259,7 @@ DIVIDER1
 	    position: relative;
 	    z-index: 3;
 	    height: 78px;
-	    top: -1px;
+	    margin-top: -1px;
 	}
 	.divider1-h3 {
 	    line-height: 78px;
@@ -434,7 +434,7 @@ MEDIA QUERIES
 		}
 		.footer-contact {
 			display: block;
-			width: 204px;
+			width: 210px;
 			line-height: 36px;
 			margin: 0 auto;
 			float: none;
@@ -466,7 +466,7 @@ MEDIA QUERIES
 	@media only screen and (max-width: 420px) {
 		/*HEADER*************************************/
 		header {
-		    height: 143px;
+		    height: 163px;
 		}
 		.header-nav {
 		    width: 288px;
