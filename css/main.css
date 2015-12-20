@@ -121,6 +121,10 @@ HEADER
 	header {
 	    height: 71px;
 	}
+	.header-content {
+		position:relative;
+		left:-47px;
+	}
 /*************************************
 LOGO
 **************************************/
@@ -207,7 +211,6 @@ OVERLAY
 	.main-overlay-container {
 	    position: absolute;
 	    z-index: 2;
-	    width: 607px;
 	}
 	.main-overlay-img {}
 /*************************************
@@ -218,7 +221,7 @@ CENTER BUTTONS
 	    position: relative;
 	    z-index: 2;
 	    opacity: 0;
-	    top: 470px;
+	    top: 500px;
 	    height: 110px;
 	    width: 461px;
 	    margin: 0 auto;
@@ -261,7 +264,11 @@ DIVIDER1
 /*************************************
 SECTION2
 **************************************/
-
+	.section2 {
+	position: relative;
+	z-index: 3;
+	padding-top: 1px;
+	}
 	.section2-border-wrap {
 	    margin: 8% 0;
 	    border-left: 7px solid #FFD700;
@@ -293,6 +300,9 @@ FOOTER
 	    line-height: 62px;
 	    text-transform: capitalize;
 	}
+	.footer-contact-a {
+		text-decoration:none;
+	}
 	.footer-nav-a {
 	    display: block;
 	    text-decoration: none;
@@ -303,4 +313,48 @@ FOOTER
 	}
 	.footer-nav-a:hover {
 	    color: rgb(255, 211, 87);
+	}
+
+/*************************************
+MEDIA QUERIES
+**************************************/
+
+	@media only screen and (max-width: 1024px) {
+		.center-button-container {
+			top:300px;
+		}
+	}
+
+	@media only screen and (max-width: 767px) {
+		.center-button-container {
+			top:0px;
+		}
+		/*HEADER*************************************/
+		header {height: 172px;}
+		.header-content {position: static;float: none;}
+		.header-nav {float: none;display: block;width: 324px;height: 71px;margin: 0 auto;}
+		.header-nav-ul {}
+		.header-nav-li {
+
+		}
+		.header-nav-a {width: 81px;}
+		.contact-container {
+    float: none;
+    display: block;
+    margin: 19px auto 0;
+}
+		.contact-a {
+
+		}
+		.contact-apply-now {
+}
+		.contact-phone-number {
+			
+		}
+		.contact-background-skewed {
+		}
+	}
+
+	@media only screen and (max-width: 420px) {
+
 	}
