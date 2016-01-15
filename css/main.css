@@ -103,11 +103,9 @@ COLORS
 	    background: #FFF;
 	}
 	.text-aqua {
-		color: rgb(22, 149, 162);
 	    color: rgba(22, 149, 162, 0.95);
 	}
 	.bg-aqua {
-		background: rgb(22, 149, 162);
 	    background: rgba(22, 149, 162, 0.95);
 	}
 	.text-dark-blue {
@@ -136,7 +134,7 @@ NAVIGATION
 **************************************/
 
 	.header-nav {
-	    margin-right: 47px;
+	    margin-right: 46px;
 	}
 	.header-nav-a {
 	    display: block;
@@ -147,10 +145,8 @@ NAVIGATION
 	    text-align: center;
 	    text-transform: uppercase;
 	    font-size: .9em;
-	    border-top: 0 solid rgb(255, 215, 0);
-	    border-top: 0 solid rgba(255, 215, 0, 0);
-	    border-bottom: 0 solid rgb(255, 215, 0);
-	    border-bottom: 0 solid rgba(255, 215, 0, 0);
+	    border-top: 0px solid rgba(255, 215, 0, 0);
+	    border-bottom: 0px solid rgba(255, 215, 0, 0);
 	    -webkit-transition: all 250ms ease-in-out;
 	    -moz-transition: all 250ms ease-in-out;
 	    -o-transition: all 250ms ease-in-out;
@@ -201,7 +197,6 @@ SLIDESHOW
 	    width: 100%;
 	    height: 0;
 	    padding-bottom: 57%;
-	    border-top: 1px solid rgb(22, 149, 162);
 	    border-top: 1px solid rgba(22, 149, 162, 0.95);
 	}
 	.slideshow-img {
@@ -218,6 +213,7 @@ OVERLAY
 	    position: absolute;
 	    z-index: 2;
 	}
+	.main-overlay-img {}
 /*************************************
 CENTER BUTTONS
 **************************************/
@@ -233,7 +229,7 @@ CENTER BUTTONS
 	.center-button-a {
 	    float:left;
 	    text-decoration: none;
-	    margin: 0 5px;
+	    margin: 0px 5px;
 	}
 	.center-button-outer {
 	    border: 7px solid #fff;
@@ -252,7 +248,6 @@ CENTER BUTTONS
 	    transition: all 400ms ease-in-out;
 	}
 	.center-button-outer:hover > .center-button-inner {
-		background: rgb(13, 51, 46);
 	    background: rgba(13, 51, 46, 0.79);
 	    color: #fff;
 	}
@@ -489,7 +484,7 @@ MEDIA QUERIES
 		/*CENTER BUTTONS******************************/
 		.center-button-container {
 			margin-top: 79px;
-			width: 285px;
+			width: 305px;
 		}
 
 		/*FOOTER******************************/
@@ -501,6 +496,5 @@ MEDIA QUERIES
 		}
 		.footer-copy-mobile {
 			font-size: .9em;
-			height: 64px;
 		}
 	}
