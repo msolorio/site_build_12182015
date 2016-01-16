@@ -267,26 +267,53 @@ DIVIDER1
 	    text-transform: capitalize;
 	}
 /*************************************
-SECTION2
+PLANNER SECTION
 **************************************/
-	.section2 {
+.vacation-section {
+	background-image: url('../img/flowers-mist.jpg');
+}
+.vacation-container {width: 31%;float: left;margin: 0 1.5% 1.5% 0;background: rgba(0, 0, 0, 0.55);-webkit-box-shadow: 1px 1px 5px #000;     box-shadow: 1px 1px 10px #000;padding: 4%;border: 2px solid #fcfcfc;color: #fcfcfc;}
+.vacation-dahsboard {
+
+}
+.vacation-h3 {
+
+}
+.vacation-p {
+
+}
+.view-comments {
+
+}
+.total-price {
+	
+}
+.comments {
+
+}
+
+
+/*************************************
+SECTION STORY
+**************************************/
+	.section-story {
 		position: relative;
 		z-index: 3;
 		padding-top: 1px;
 	}
-	.section2-border-wrap {
+	.section-story-border-wrap {
 	    margin: 8% 0;
 	    border-left: 7px solid #FFD700;
 	    border-right: 7px solid #FFD700;
 	}
-	.section2-col {
+	.section-story-col {
 	    float: left;
 	    padding: 0 4%;
 	}
-	.section2-col-p {
+	.section-story-col-p {
 	    font-size: 1.9em;
 	}
-	.section2-col-p.first {
+	.section-story-col-p.first {
 	    margin-bottom: 6%;
 	}
 /*************************************
