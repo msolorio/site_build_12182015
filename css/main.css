@@ -632,13 +632,13 @@ input[type=number]::-webkit-outer-spin-button {
 	transition: 250ms all ease-in-out;
 }
 .vacation-book-now {
-	background: #FFd700;
+	background: #F9DD49;
 }
 .vacation-book-now:hover {
-	background: hsla(58,100%,66%,1);
+	background: hsla(47,100%,50%,1);
 }
 .vacation-view-comments {
-	background: rgba(0, 220, 232, 0.95);
+	background: hsla(183, 68%, 62%, 0.95);
 }
 .vacation-view-comments:hover {
 	background: rgba(0, 220, 232, 0.95);
