@@ -384,7 +384,7 @@ LOGO
 }
 .logo-img {
 	width: 100%;
-	margin: 15px;
+	margin: 8px 15px;
 }
 
 /*************************************
@@ -415,7 +415,7 @@ NAVIGATION
 .header-nav-a:hover {
     border-top: 7px solid #FFD700;
     border-bottom: 7px solid #FFD700;
-    line-height: 25px;
+    line-height: 57px;
 }
 
 
@@ -794,6 +794,9 @@ MEDIA QUERIES
         height: 51px;
         line-height: 51px;
     }
+    .header-nav-a:hover {
+    	line-height: 39px;
+    }
     .contact-container {
         float: none;
         display: block;
@@ -915,6 +918,9 @@ MEDIA QUERIES
         width: 72px;
         height: 36px;
         line-height: 36px;
+    }
+    .header-nav-a:hover {
+    	line-height: 24px;
     }
     .contact-container {
         margin: 1px auto 0;
