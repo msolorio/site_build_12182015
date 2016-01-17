@@ -740,7 +740,7 @@ footer {
     transition: all 400ms ease-in-out;
 }
 
-.footer-nav-a:hover {
+.footer-nav-a:hover, .contact-phone-number:hover {
     color: rgb(255, 211, 87);
 }
 
