@@ -72,10 +72,14 @@ var vacations = {
         }
     }
 };
+function bodyFadeIn(){
+    $('body').fadeIn(700).removeClass('hidden');
+}
 
 //READY EXPRESSION
 $(function() {
     slideshow();
     setCenterButtons();
     vacations.init();
+    bodyFadeIn();
 });

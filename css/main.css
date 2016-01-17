@@ -241,6 +241,9 @@ GENERAL STYLES
 body {
     font-family: 'Montserrat', sans-serif;
 }
+body.hidden {
+    display:none;
+}
 
 ul {
     list-style-type: none;
