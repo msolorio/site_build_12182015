@@ -574,6 +574,8 @@ PLANNER SECTION
     background: url('../img/flowers2.jpg') no-repeat left;
     background-size: cover;
     padding: 65px 0;
+    position: relative;
+    z-index: 2;
 }
 
 .vacation-container {
@@ -581,7 +583,7 @@ PLANNER SECTION
     float: left;
     margin: 0 1.7% 1.7% 0;
     font-family: 'Lato', sans-serif;
-    font-weight:100;
+    font-weight: 300;
     height: 340px;
 }
 
@@ -868,7 +870,7 @@ MEDIA QUERIES
     }
     /*FOOTER******************************/
     footer {
-        height: 109px;
+        height: 151px;
     }
     .footer-copy {
         display: none;
