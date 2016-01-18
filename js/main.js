@@ -11,11 +11,11 @@ function slideshow() {
 
 function setCenterButtons() {
     $('.center-button-container').css('opacity', 0);
-    $('.center-button-container').delay(400).animate({
+    $('.center-button-container').delay(600).animate({
             top: '+=23px',
             opacity: 1
         },
-        1200
+        1600
     );
 }
 
