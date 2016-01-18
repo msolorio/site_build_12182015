@@ -6,7 +6,7 @@ function slideshow() {
             .next().fadeIn(2500)
             .end()
             .appendTo('.slideshow-container');
-    }, 8000); //end set interval
+    }, 6000); //end set interval
 } //end function define
 
 function setCenterButtons() {
