@@ -681,7 +681,7 @@ DIVIDER2
 /*************************************
 SECTION STORY
 **************************************/
-
+.effect-marker {position: relative;top: 250px;}
 .section-story {
     position: relative;
     z-index: 3;
@@ -689,7 +689,12 @@ SECTION STORY
 }
 
 .section-story-border-wrap {
+    margin: 8% 50%;
+}
+
+.section-story-border-wrap {
     margin: 8% 0;
+    margin: 8% 50%;
     border-left: 7px solid #FFD700;
     border-right: 7px solid #FFD700;
 }
@@ -701,6 +706,7 @@ SECTION STORY
 
 .section-story-col-p {
     font-size: 1.9em;
+    opacity:0;
 }
 
 .section-story-col-p.first {

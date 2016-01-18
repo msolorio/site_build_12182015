@@ -76,10 +76,39 @@ function bodyFadeIn(){
     $('body').fadeIn(700).removeClass('hidden');
 }
 
+function bordersAnimation(){
+    var interval = setInterval(function(){
+
+
+        if ($('.effect-marker').visible(true)){
+            
+            $('.section-story-border-wrap').animate({
+                margin: '8% -5%'
+            }, {
+                duration: 700,
+                specialEasing: 'easOutCirc'
+            }).
+            animate({
+                margin:'8% 0%'
+            }, {
+                duration: 500
+            });
+            $('.section-story-col-p').delay(1200).animate({
+                opacity: 1
+            }, {
+                duration: 1200,
+            });
+
+            clearInterval(interval);
+        }
+    });
+}
+
 //READY EXPRESSION
 $(function() {
     slideshow();
+    bodyFadeIn();
     setCenterButtons();
     vacations.init();
-    bodyFadeIn();
+    bordersAnimation();
 });
