@@ -79,6 +79,14 @@ function bodyFadeIn(){
 function bordersAnimation(){
     var interval = setInterval(function(){
 
+        if($('.divider2').visible(true)){
+            var storyWrap = $('.section-story-border-wrap');
+            var storyCol = $('.section-story-col');
+            var storyHeight = storyWrap.height();
+            storyWrap.height(storyHeight);
+            storyCol.hide();
+            storyWrap.css('margin', '8% 50%');
+        }
 
         if ($('.effect-marker').visible(true)){
             
@@ -90,14 +98,10 @@ function bordersAnimation(){
             }).
             animate({
                 margin:'8% 0%'
-            }, {
-                duration: 500
+            }, 500, function(){
+                storyCol.fadeIn(1200);
             });
-            $('.section-story-col-p').delay(1200).animate({
-                opacity: 1
-            }, {
-                duration: 1200,
-            });
+            
 
             clearInterval(interval);
         }
