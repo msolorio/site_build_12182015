@@ -90,7 +90,7 @@ function bordersAnimation(){
 
         if ($('.effect-marker').visible(true)){
             
-            $('.section-story-border-wrap').animate({
+            storyWrap.animate({
                 margin: '8% -5%'
             }, {
                 duration: 700,
