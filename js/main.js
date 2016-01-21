@@ -100,6 +100,7 @@ function bordersAnimation(){
                 margin:'8% 0%'
             }, 500, function(){
                 storyCol.fadeIn(1200);
+                storyWrap.height('initial');
             });
             
 
